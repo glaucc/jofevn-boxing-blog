@@ -50,6 +50,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
   }
   
 .footerLinks {
@@ -58,3 +59,41 @@
     justify-content: space-around;
 
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .articles {
+      grid-template-columns: 1fr;
+    }
+    
+    .footerContent {
+      flex-direction: column;
+      text-align: center;
+      width: 80vw;
+      display: flex;
+      align-items: center;
+    }
+    
+    .footerLinks {
+      margin-top: 1rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: 40vw;
+    }
+
+    .footerLinks {
+        width: 80vw;
+    }
+
+    .footerCopyright {
+        text-align: center;
+    }
+  }
+
+  
+  
+  
+  
+  

@@ -39,7 +39,7 @@ const Home = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Boxing Articles</h1>
+        <h1 className={styles.title}>Welcome to Jofevn Boxing Articles</h1>
 
         <div className={styles.articles}>
           {posts.map(post => (
@@ -72,7 +72,7 @@ const Home = () => {
   <p className={styles.footerCopyright}>
     © {new Date().getFullYear()} Boxing Articles. All rights reserved.
   </p>
-</footer> 
+</footer>
     </div>
   );
 };
