@@ -1,0 +1,30 @@
+/* BoxingGame.module.css */
+
+
+.canvasContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.canvas {
+  background-color: black; /* Background color for the canvas */
+  border: 2px solid white; /* Border for the canvas */
+}
+
+
+.playerBoxer {
+  background-color: blue; /* Set the background color for the player boxer */
+  /* Add other styles as needed to create the boxer appearance */
+}
+
+.opponentBoxerRed {
+  background-color: red; /* Set the background color for the opponent boxer with red trunks */
+  /* Add other styles as needed to create the boxer appearance */
+}
+
+.opponentBoxerBlue {
+  background-color: blue; /* Set the background color for the opponent boxer with blue trunks */
+  /* Add other styles as needed to create the boxer appearance */
+}

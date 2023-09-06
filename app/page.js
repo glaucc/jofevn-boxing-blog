@@ -41,6 +41,29 @@ const Home = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Jofevn Boxing Articles</h1>
 
+        <div className={styles.boxingGameSection}>
+          <div className={styles.boxingGameInfo}>
+            <h2>Try Our Interactive Boxing Game</h2>
+            <p>
+              Step into the ring and test your boxing skills! Choose your boxer and take on challenging opponents in this action-packed game.
+            </p>
+            <Link href="/boxing-game"
+              className={styles.playButton}>Play Now
+            </Link>
+          </div>
+
+          <div className={styles.boxingGameAnimation}>
+          <div className={styles.mikeTysonImage}>
+        <img
+          src="/tyson1.webp" // Replace with the path to your Mike Tyson photo
+          alt="Mike Tyson"
+          className={styles.mikeTysonImage}
+        />
+      </div>
+          </div>
+        </div>
+
+
         <div className={styles.articles}>
           {posts.map(post => (
             <div className={styles.article} key={post.id}>

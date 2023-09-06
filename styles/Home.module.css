@@ -25,17 +25,27 @@
   
   .articles {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 5rem;
+    width: 70vw;
   }
   
   .article {
     padding: 1.5rem;
+    width: 32.2vw;
     border: 1px solid #ccc;
     border-radius: 8px;
     transition: transform 0.2s, box-shadow 0.2s;
     cursor: pointer;
+    grid-column: span 2; /* Each article spans two columns */
+  }
+  
+  /* For responsiveness on smaller screens */
+  @media (max-width: 768px) {
+    .article {
+      grid-column: span 1; /* Reset to one column for smaller screens */
+    }
   }
   
   .article:hover {
@@ -94,6 +104,155 @@
 
   
   
-  
-  
-  
+/* styles/Home.module.css */
+/* ... (previous styles) */
+
+.boxingGameSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.boxingGameInfo {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for "Try Our Interactive Boxing Game" text */
+.boxingGameInfo h2 {
+  font-size: 2.5rem; /* Adjust the font size */
+  font-weight: bold; /* Make it bold */
+  color: #ff5733; /* Change the text color to something noticeable */
+  text-transform: uppercase; /* Convert text to uppercase for emphasis */
+  letter-spacing: 2px; /* Add some letter spacing for style */
+  margin-bottom: 2rem;
+}
+
+.boxingGameInfo p {
+  font-size: 1.2rem; /* Adjust the font size */
+  margin-bottom: 1.5rem; /* Add bottom margin */
+}
+
+
+.boxingGameInfo:hover {
+  transform: translateY(-5px);
+}
+
+.boxingGameTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333; /* Text color */
+}
+
+.boxingGameDescription {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #666; /* Text color */
+}
+
+.playButton {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #ff5733;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  position: relative; /* Add relative positioning for the pseudo-element */
+  overflow: hidden; /* Hide the pseudo-element overflow */
+}
+
+/* Add hover effect */
+.playButton:hover {
+  background-color: #e0451c; /* Change the background color on hover */
+  color: white; /* Change the text color on hover */
+  transform: scale(1.05); /* Scale the button slightly on hover */
+}
+
+/* Add glass-breaking animation */
+.playButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+  background-size: 100% 200%; /* Initial background size */
+  opacity: 0; /* Start with no opacity */
+  z-index: -1; /* Position the pseudo-element behind the button */
+  transition: opacity 0.2s ease-in-out, background-position 0.2s ease-in-out;
+  animation: glassBreak 0.5s forwards; /* Apply the glass-breaking animation */
+}
+
+/* Define the glass-breaking animation */
+@keyframes glassBreak {
+  0% {
+    opacity: 0;
+    background-position: 0 0;
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+
+/* 
+.boxingGameAnimation {
+  flex: 1;
+  background-image: url('/boxing-game-animation.gif'); Replace with your animation or image
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px; Set the desired height for your animation
+} */
+
+
+/* Apply the animation to the .boxingGameAnimation element */
+/* styles/Home.module.css */
+/* ... (previous styles) */
+
+/* Define the boxing game animation container */
+.boxingGameAnimation {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(8, 50px); /* Adjust grid dimensions */
+  grid-template-rows: repeat(10, 50px); /* Adjust grid dimensions */
+  /* background-color: #fff; Fallback background color */
+  animation: boxingGameAnimation 3s infinite;
+  z-index: -1;
+}
+
+/* Define the colorful cube styles */
+
+/* Keyframes animation for the colorful cubes */
+@keyframes boxingGameAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* styles/Home.module.css */
+/* ... (previous styles) */
+
+.mikeTysonImage {
+  width: 850%; /* Adjust the width as needed for the portrait size */
+  filter: sepia(100%) hue-rotate(40deg) saturate(150%);
+  /* Add more filter properties as desired */
+}
