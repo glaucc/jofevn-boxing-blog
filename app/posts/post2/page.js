@@ -25,8 +25,8 @@ const Post1 = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>The Evolution of Boxing Techniques</title>
-        <meta name="description" content="Explore the history and evolution of boxing techniques over the years." />
+        <title>Famous Boxing Matches of the 21st Century</title>
+        <meta name="description" content="Explore Famous Boxing Matches of the 21st Century." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
