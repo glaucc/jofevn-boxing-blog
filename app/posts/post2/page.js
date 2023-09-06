@@ -34,23 +34,142 @@ const Post1 = () => {
         <div className={styles.articleContent}>
         <h1 className={styles.title}>The Evolution of Boxing Techniques</h1>
           <p>
-            Boxing has a rich history that spans centuries, and with that history comes a fascinating evolution of techniques. From bare-knuckle brawls to modern professional boxing, the sport has seen remarkable changes in technique and strategy.
+          In the heart-pounding world of professional boxing, the 21st century has been a treasure trove of unforgettable moments, iconic rivalries, and epic showdowns that have left audiences on the edge of their seats. From the legendary clashes of seasoned champions to the rise of new boxing prodigies, the sport has continuously evolved, producing some of the most intense and dramatic battles in its storied history.
+          </p>
+          <br></br>
+          <p>
+          As we step into the ring of memory, we'll recall the bouts that defined an era, matches that showcased extraordinary skill, boundless courage, and unyielding determination. Join us as we revisit the Famous Boxing Matches of the 21st Century, a journey through the blood, sweat, and tears of fighters who etched their names into the annals of boxing history.          
+          </p>
+          <br></br>
+          <p><strong>
+
+          1. Muhammad Ali vs. Joe Frazier III (Thrilla in Manila) - 1975:
+          </strong>
           </p>
           <p>
-            In the early days of boxing, fighters relied heavily on raw power and endurance. There were minimal rules, and matches often lasted for dozens of rounds. As the sport gained popularity and regulations were introduced, fighters started to refine their techniques for efficiency and effectiveness.
+          While this bout occurred in the 20th century, it's often considered one of the greatest matches in boxing history. The brutal 14-round encounter between Ali and Frazier captivated fans worldwide.          
+          </p><br></br>
+          <p><strong>
+
+          2. Manny Pacquiao vs. Juan Manuel Marquez IV - 2012:
+          </strong>
           </p>
           <p>
-            The introduction of gloves and weight classes marked significant turning points in boxing's evolution. Fighters began to emphasize speed, precision, and defensive maneuvers. Techniques like the jab, hook, uppercut, and footwork became essential components of a boxer's arsenal.
+          The fourth fight between Pacquiao and Marquez was a thrilling showdown that ended with a stunning knockout by Marquez in the sixth round.
+</p>
+
+<br></br>
+          <p><strong>
+
+          3. Floyd Mayweather Jr. vs. Manny Pacquiao - 2015:
+          </strong>
           </p>
           <p>
-            Over the years, boxing techniques continued to evolve with the influence of legendary fighters and trainers. The peek-a-boo style of defense popularized by Cus D'Amato and mastered by Mike Tyson, the counterpunching brilliance of Muhammad Ali, and the defensive prowess of Floyd Mayweather Jr. are just a few examples of the diverse techniques that have emerged.
+          This "Fight of the Century" brought together two of the most famous boxers of the era. Mayweather won by unanimous decision in a highly anticipated bout.
+
+</p>
+
+<br></br>
+          <p><strong>
+
+          4. Arturo Gatti vs. Micky Ward Trilogy - 2002-2003:
+          </strong>
           </p>
           <p>
-            Today, boxing techniques continue to evolve with advancements in sports science and technology. Fighters analyze their opponents' movements using sophisticated tools, and training regimens are tailored to optimize performance. The sport remains a dynamic blend of athleticism, strategy, and adaptability.
+          These three fights between Gatti and Ward are renowned for their back-and-forth action and were a testament to the heart and determination of both fighters.
+
+</p>
+
+<br></br>
+          <p><strong>
+
+          5. Lennox Lewis vs. Vitali Klitschko - 2003:
+
+          </strong>
           </p>
           <p>
-            Whether you're a seasoned boxing enthusiast or a newcomer to the sport, understanding its evolution provides a deeper appreciation for the skills and dedication required by the athletes. The techniques that have developed over centuries reflect the ever-changing nature of the sport and its enduring appeal.
+          In this heavyweight clash, Lennox Lewis retained his title after a fierce battle with Klitschko, who showed tremendous courage despite a deep cut.
+
+</p>
+
+<br></br>
+          <p><strong>
+
+          6. Diego Corrales vs. Jose Luis Castillo I - 2005:
+
+          </strong>
           </p>
+          <p>
+          Corrales and Castillo engaged in a brutal lightweight fight that included a memorable 10th round where Corrales came back from multiple knockdowns to win.
+
+</p>
+
+<br></br>
+          <p><strong>
+
+          7. Gennady Golovkin vs. Canelo Alvarez I and II - 2017 and 2018:
+
+          </strong>
+          </p>
+          <p>
+          These middleweight battles between Golovkin and Alvarez showcased elite-level boxing skills and ended in a draw and a close decision win for Alvarez, respectively.
+
+</p>
+
+<br></br>
+          <p><strong>
+
+          8. Anthony Joshua vs. Wladimir Klitschko - 2017:
+
+
+          </strong>
+          </p>
+          <p>
+          Joshua faced Klitschko in a heavyweight clash that saw both fighters hit the canvas before Joshua emerged victorious.
+
+
+</p>
+
+<br></br>
+          <p><strong>
+
+          9. Miguel Cotto vs. Antonio Margarito I - 2008:
+
+
+          </strong>
+          </p>
+          <p>
+          Cotto and Margarito had a fierce encounter, and Cotto emerged victorious, avenging his later-disputed loss to Margarito.
+
+
+</p>
+
+<br></br>
+          <p><strong>
+
+          10. Timothy Bradley vs. Ruslan Provodnikov - 2013:
+
+
+          </strong>
+          </p>
+          <p>
+          Bradley and Provodnikov's welterweight fight was a slugfest that showcased incredible toughness and heart from both fighters.
+
+
+</p>
+<br></br>
+<p><strong>Conclusion:</strong></p>
+<p>In the ever-evolving world of boxing, the 21st century has provided us with a collection of matches that will forever be etched in our collective memory. From the dazzling skills of fighters like Floyd Mayweather Jr. to the sheer determination of Manny Pacquiao, these battles showcased the essence of what makes boxing so compelling — heart, grit, and the relentless pursuit of greatness.</p>
+  <br></br>
+  <p>As we conclude our journey through the Famous Boxing Matches of the 21st Century, we're reminded of the sheer human spirit that these fighters exhibited in the ring. Their unwavering dedication to their craft and the willingness to face adversity head-on is a testament to the enduring allure of the sweet science.
+
+</p>
+<br></br>
+  <p>While the boxing world continues to evolve and new champions emerge, these iconic matches serve as a timeless reminder of the sheer drama and excitement that only boxing can deliver. As we bid farewell to this retrospective, we look forward to the future, where new legends will rise, new battles will captivate us, and the spirit of boxing will continue to thrive.
+</p>
+  
+  
+  
         </div>
         <div className={styles.backLink}>
           <Link href="/">
