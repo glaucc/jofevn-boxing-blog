@@ -43,12 +43,13 @@ const Home = () => {
 
         <div className={styles.boxingGameSection}>
           <div className={styles.boxingGameInfo}>
-            <h2>Try Our Interactive Boxing Game</h2>
+            <h2>Test Your Real-World Fighting Knowledge</h2>
             <p>
-              Step into the ring and test your boxing skills! Choose your boxer and take on challenging opponents in this action-packed game.
+              
+Step into the world of real-world fighting knowledge and put your expertise to the test.
             </p>
-            <Link href="/boxing-game"
-              className={styles.playButton}>Play Now
+            <Link href="/quiz"
+              className={styles.playButton}>Take Quiz Now
             </Link>
           </div>
 
