@@ -3,6 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import ViewAllButton from '../components/ViewAllButton'; // Import the ViewAllButton component
+
 
 const Home = () => {
   const posts = [
@@ -88,6 +90,9 @@ Step into the world of real-world fighting knowledge and put your expertise to t
             </div>
           ))}
         </div>
+
+        <ViewAllButton />
+
       </main>
 
       <footer className={styles.footer}>
