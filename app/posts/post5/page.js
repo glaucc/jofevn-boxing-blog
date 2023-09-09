@@ -1,4 +1,5 @@
 // pages/posts/post1.js
+
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -25,15 +26,15 @@ const Post1 = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>The Evolution of Boxing Techniques</title>
-        <meta name="description" content="Explore the history and evolution of boxing techniques over the years." />
+        <title>Knockout Analysis - Breaking Down Famous Fights: Muhammad Ali vs. Joe Frazier III</title>
+        <meta name="description" content="Knockout Analysis - Breaking Down Famous Fights: Muhammad Ali vs. Joe Frazier III" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <div className={styles.articleContent}>
           
-        <h1 className={styles.title}>The Evolution of Boxing Techniques</h1>
+        <h1 className={styles.title}>Knockout Analysis - Breaking Down Famous Fights: Muhammad Ali vs. Joe Frazier III</h1>
         <h2 className='header'>
 
     <strong>

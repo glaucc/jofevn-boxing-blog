@@ -18,14 +18,25 @@ const Home = () => {
     },
     {
       id: 'post3',
-      title: 'Training Regimens of Professional Boxers',
-      content: 'Learn about the rigorous training routines that professional boxers follow.',
+      title: 'Full Training Routine of The Most Disciplined Boxer: Legendary Middleweight Champion Marvellious Marvin Hagler.',
+      content: '',
     },
     {
       id: 'post4',
-      title: 'The Mental Game: Psychology in Boxing',
-      content: 'Discover how mental strength and psychology play a crucial role in boxing success.',
+      title: 'The Psychology of Boxing: Mental Toughness in the Ring and How Boxers Developed This Mindset.',
+      content: "",
     },
+    {
+      id: 'post5',
+      title: 'Knockout Analysis - Breaking Down Famous Fights: Mike Tyson vs. Michael Spinks (1988)',
+      content: '',
+    },
+    {
+      id: 'post6',
+      title: 'Knockout Analysis - Breaking Down Famous Fights: Muhammad Ali vs. Joe Frazier III',
+      content: '',
+    },
+    
     
     // Add more posts here
   ];
