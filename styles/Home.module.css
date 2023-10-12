@@ -139,7 +139,7 @@
 
 .boxingGameInfo p {
   font-size: 1.2rem; /* Adjust the font size */
-  margin-bottom: 1.5rem; /* Add bottom margin */
+  margin-bottom: 1rem; /* Add bottom margin */
 }
 
 
@@ -293,3 +293,10 @@
   outline: none; /* Remove the default focus outline */
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Add a shadow on focus */
 }
+
+.watchMatch {
+  margin-top: 2rem;
+}
+/* .matchP {
+  margin-top: 1rem;
+} */

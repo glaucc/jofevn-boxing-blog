@@ -1,0 +1,39 @@
+/* styles/Categories.module.css */
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .categoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .categoryItem {
+    background-color: #353131; /* Light gray background */
+    padding: 20px;
+    /* height: 8rem; */
+    text-align: center;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    color: #ffffff; /* Dark gray text color */
+  }
+  
+  .categoryItem:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #b3b3b3; /* Dark gray background on hover */
+    color: #000000; /* White text color on hover */
+  }
+  

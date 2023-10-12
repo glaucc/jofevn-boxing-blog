@@ -64,6 +64,15 @@ Step into the world of real-world fighting knowledge and put your expertise to t
             <Link href="/quiz"
               className={styles.playButton}>Take Quiz Now
             </Link>
+            <div className={styles.watchMatch}>
+
+            <p className={styles.matchP}>Or, watch random full boxing matches from our collection.</p>
+            {/* Add a link to the page where users can watch random boxing matches */}
+            <Link href="/watch-boxing-matches" className={styles.playButton}>
+              Watch Matches
+            </Link>
+            </div>
+          
           </div>
 
           <div className={styles.boxingGameAnimation}>
